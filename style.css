@@ -1,12 +1,12 @@
 #container{
     display: flex;
     flex-wrap: wrap;
-    width: 720px; /*(square width + gap) x 16*/
-    gap: 5px;
+    width: 720px; /*(square width + gap + border) x 16*/
+    gap: 3px;
 }
 
 .square{
     width: 40px;
     height: 40px;
-    background-color: blue;
+    border: 1px solid black;
 }
