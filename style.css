@@ -1,0 +1,12 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px; /*(square width + gap) x 16*/
+    gap: 5px;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
